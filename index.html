@@ -16,35 +16,39 @@
     <div class="content-wrapper">
 
       <nav class="sidebar">
-        <a href="">Overview</a>
+        <a href="#overview">Overview</a>
         <hr>
-        <a href="">Color</a>
+        <a href="#color">Color</a>
         <hr>
-        <a href="">Typography</a>
+        <a href="#typo">Typography</a>
         <hr>
-        <a href="">Iconography</a>
+        <a href="#icon">Iconography</a>
         <hr>
-        <a href="">Logos</a>
+        <a href="#logos">Logos</a>
         <hr>
-        <a href="">Buttons</a>
+        <a href="#buttons">Buttons</a>
         <hr>
-        <a href="">Navigation</a>
+        <a href="#navigation">Navigation</a>
         <hr>
-        <a href="">CSS</a>
+        <a href="#css">CSS</a>
       </nav>
 
       <main class="main-content">
-        <section class="overview" id="overview">
+
+        <div id="overview"></div>
+        <section class="overview" >
           <h2 class="section-heading">Overview</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
 
+        <div id="color"></div>
         <section class="color" id="color">
           <h2 class="section-heading">Color</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et harum, cupiditate vero quo earum officiis totam nisi commodi dicta officia sint expedita. Harum aperiam unde ipsum minima possimus, iste, eius facilis, odit ad, quis quaerat!</p>
           <img src="assets/images/colors.png" alt="brand colors">
         </section>
 
+        <div id="typo"></div>
         <section class="typo" id="typo">
           <h2 class="section-heading">Typography</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum soluta distinctio rem, rerum possimus commodi dicta, animi optio dignissimos in excepturi suscipit ipsam quas dolorum, assumenda aliquam reiciendis! Sit nihil quas ratione est aliquam. Ex.</p>
@@ -77,6 +81,7 @@
           </article>
         </section>
 
+        <div id="icon"></div>
         <section class="icon" id="icon">
           <h2 class="section-heading">Iconography</h2>
           <div class="icon-box">
@@ -167,6 +172,7 @@
           </div>
         </section>
 
+        <div id="logos"></div>
         <section class="logos" id="logos">
           <h2 class="section-heading">Logos</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore tenetur exercitationem quos delectus, maiores ad! Alias rem molestias harum atque corporis ab? Beatae labore quibusdam non, dicta! Tempora magnam suscipit sint exercitationem obcaecati officia, dolorem!</p>
@@ -180,6 +186,7 @@
           </figure>
         </section>
 
+        <div id="buttons"></div>
         <section class="buttons" id="buttons">
           <h2 class="section-heading">Buttons</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius a nam quae, expedita repellat perferendis, sint perspiciatis molestias temporibus dolores amet inventore, reiciendis hic similique maxime illum! Dignissimos quasi molestiae magni, ipsa optio adipisci at.</p>
@@ -214,35 +221,36 @@
           <div class="submit-buttons">
             <figure>
               <figcaption>Form Submission Invalid</figcaption>
-              <img src="assets/images/sumbit-invalid.png" alt="">
-              <button class="submit-button-invalid"></button>
+              <button class="submit-button-invalid">Submit</button>
             </figure>
             <figure>
               <figcaption>Form Submission Valid</figcaption>
-              <img src="assets/images/submit-valid.png" alt="">
-              <button class="submit-button-valid"></button>
+              <button class="submit-button-valid">Submit</button>
             </figure>
           </div>
         </section>
 
+        <div id="navigation"></div>
         <section class="navigation" id="navigation">
           <h2 class="section-heading">Navigation</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nesciunt deserunt ab harum debitis consequatur perferendis voluptatibus aut reiciendis nostrum quis, qui odio, ipsam possimus. Veniam optio quaerat fugiat doloribus, iusto vel placeat incidunt perferendis.</p>
 
           <figure>
-            <img src="" alt="">
             <figcaption>Main Navigation</figcaption>
+            <img src="assets/images/navbar.png" alt="">
           </figure>
           <figure>
-            <img src="" alt="">
             <figcaption>Admin Navigation</figcaption>
+            <img src="assets/images/admin-nav.png" alt="">
           </figure>
         </section>
 
+        <div id="css"></div>
         <section class="css" id="css">
           <h2 class="section-heading">CSS</h2>
           <p>Section will be filled in as CSS is refactored</p>
-          <ul>
+          <h3>CSS Presets</h3>
+          <ul class="css-list">
             <li>* { margin: 0; padding: 0; box-sizing: border-box;}</li>
             <li>Fonts, headings, paragraphs, margins, paddings, grids should all be layed out in Sass files by category with class names or sass varible declarations.</li>
             <li>application.scss should only include imports of other files, no rules should be declared here.</li>
